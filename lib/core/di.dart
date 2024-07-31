@@ -1,14 +1,14 @@
 import 'package:imdb_poc/features/home/data/data_source/home_api_provider.dart';
 import 'package:imdb_poc/features/home/data/data_source/home_api_provider_impl.dart';
 import 'package:imdb_poc/features/home/domain/repositories/home_repo.dart';
-import 'package:imdb_poc/features/home/data/repository_impl/home_repo_impl.dart';
+import 'package:imdb_poc/features/home/data/repositories_impl/home_repo_impl.dart';
 import 'package:imdb_poc/features/home/presentation/bloc/home_bloc.dart';
 import 'package:imdb_poc/features/movies_details/data/datasource/movie_detail_api_provider_impl.dart';
 import 'package:imdb_poc/features/movies_details/domain/repositories/movie_details_repo.dart';
 import 'package:injector/injector.dart';
 import '../api/api_service.dart';
 import '../features/movies_details/data/datasource/movie_detail_api_provider.dart';
-import '../features/movies_details/data/repository_impl/movie_details_repo_impl.dart';
+import '../features/movies_details/data/repositories_impl/movie_details_repo_impl.dart';
 import '../features/movies_details/presentation/bloc/movie_details_bloc.dart';
 
 void setupDependencyInjections() async {
