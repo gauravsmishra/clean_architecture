@@ -56,15 +56,14 @@ The app uses the BLoC (Business Logic Component) pattern for efficient state man
 lib/
 ├── data/
 │ ├── datasources/
+│ ├── repositorise_impl/
+├── domain/
 │ ├── models/
 │ ├── repositories/
-├── domain/
-│ ├── entities/
-│ ├── repositories/
-│ ├── usecases/
 ├── presentation/
 │ ├── blocs/
-│ ├── pages/
+| ├── controller/
+│ ├── widget_view/
 │ ├── widgets/
 └── main.dart
 ```
