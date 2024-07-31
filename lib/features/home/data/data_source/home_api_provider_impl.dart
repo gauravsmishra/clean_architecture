@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 import 'package:dio/dio.dart';
 import 'package:imdb_poc/api/api_response.dart';
 import 'package:imdb_poc/features/home/data/data_source/home_api_provider.dart';

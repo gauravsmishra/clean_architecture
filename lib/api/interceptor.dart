@@ -29,7 +29,7 @@ InterceptorsWrapper requestInterceptor(Dio dio) => InterceptorsWrapper(
         } else {}
 
         if (ApiService().isInDebugMode) {
-          // log("Api - URL: ${uri.toString()}");
+          log("Api - URL: ${uri.toString()}");
           // log("Api - Request Body: ${options.data}");
           // log("Api - Request header: ${options.headers}");
         }

@@ -1,9 +1,6 @@
-import 'dart:developer';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:imdb_poc/core/theme/dark_theme.dart';
-import 'package:imdb_poc/features/home/presentation/controller/home_screen_controller.dart';
 import 'package:imdb_poc/features/movies_details/presentation/bloc/movie_details_bloc.dart';
 import 'package:injector/injector.dart';
 import 'core/di.dart';
